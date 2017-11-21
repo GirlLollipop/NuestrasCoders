@@ -1,0 +1,40 @@
+
+header {
+  margin-left: 70px;
+  text-align: left;
+}
+
+header > h1 {
+  font-family: times;
+}
+
+header > hr {
+  background-color: black;
+  height: 5px;
+  margin: 0;
+  width: 120px;
+}
+
+section > article {
+  float: left;
+  margin: 10px 15px;
+  position: relative;
+  text-align: right;
+  width: 26%;
+}
+
+section > article:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+
+section > article > p  {
+  bottom: 0px;
+  color: white;
+  font-family: times;
+  font-weight: bold;
+  font-size: 20px;
+  position: absolute;
+  right: 15px;
+}
